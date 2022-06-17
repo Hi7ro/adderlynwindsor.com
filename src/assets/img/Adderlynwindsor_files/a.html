@@ -1,0 +1,29 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body><div id="webpack-dev-server-client-overlay-div" style="position: fixed; box-sizing: border-box; inset: 0px; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.85); color: rgb(232, 232, 232); font-family: Menlo, Consolas, monospace; font-size: large; padding: 2rem; line-height: 1.2; white-space: pre-wrap; overflow: auto;"><span>Compiled with problems:</span><button style="background: transparent none repeat scroll 0% 0%; border: medium none; font-size: 20px; font-weight: bold; color: white; cursor: pointer; float: right;">X</button><br><br><div><span style="color: rgb(227, 96, 73);">ERROR</span><br><br><div>src/app/app.component.ts<span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;">:11</span>:23<span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;"> - error</span><span style="color:#6D7891;"> NG2003: <span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;">No suitable injection token for parameter 'router' of class 'AppComponent'.
+  Consider using the @Inject decorator to specify an injection token.
+
+<span style="color:#transparent;background:#transparent;">11</span>   constructor(private router: Router){ }
+<span style="color:#transparent;background:#transparent;">  </span>                       ~~~~~~</span>
+
+  src/app/app.component.ts<span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;">:11</span>:31<span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;">
+    <span style="color:#transparent;background:#transparent;">11</span>   constructor(private router: Router){ }
+    <span style="color:#transparent;background:#transparent;">  </span>                               ~~~~~~</span>
+    This type does not have a value, so it cannot be used as injection token.
+</span></div><br><br></div><div><span style="color: rgb(227, 96, 73);">ERROR</span><br><br><div>src/app/app.component.ts<span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;">:11</span>:31<span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;"> - error</span><span style="color:#6D7891;"> TS2304: <span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;">Cannot find name 'Router'.
+
+<span style="color:#transparent;background:#transparent;">11</span>   constructor(private router: Router){ }
+<span style="color:#transparent;background:#transparent;">  </span>                               ~~~~~~</span>
+</span></div><br><br></div><div><span style="color: rgb(227, 96, 73);">ERROR</span><br><br><div>src/app/app.module.ts<span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;">:12</span>:5<span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;"> - error</span><span style="color:#6D7891;"> NG6001: <span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;">The
+ class 'AppComponent' is listed in the declarations of the NgModule 
+'AppModule', but is not a directive, a component, or a pipe. Either 
+remove it from the NgModule's declarations, or add an appropriate 
+Angular decorator.
+
+<span style="color:#transparent;background:#transparent;">12</span>     AppComponent,
+<span style="color:#transparent;background:#transparent;">  </span>     ~~~~~~~~~~~~</span>
+
+  src/app/app.component.ts<span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;">:8</span>:14<span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;">
+    <span style="color:#transparent;background:#transparent;">8</span> export class AppComponent implements OnInit {
+    <span style="color:#transparent;background:#transparent;"> </span>              ~~~~~~~~~~~~</span>
+    'AppComponent' is declared here.
+</span></div><br><br></div></div></body></html>
